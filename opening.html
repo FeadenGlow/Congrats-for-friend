@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="opening.css">
+    <title>С др, васян</title>
+</head>
+<body>
+    <h1>Введите пароль</h1>
+    <input type="password" placeholder="6 символов" id = "password">
+    <button onclick="login()">Войти</button>
+    <script>
+        let password = document.getElementById("password");
+
+        function login(){
+            if(password.value == 999999){
+                window.open("next1.html")
+            }
+            else if(password.value == "Качели" || "качели"){
+                window.open("next2.html")
+            }
+        }
+    </script>  
+</body>
+</html>

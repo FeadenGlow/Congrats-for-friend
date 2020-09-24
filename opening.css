@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+h3{
+    color:white;
+}
+h4{
+    color:white;
+}
+a{
+    color: white;
+    border: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
