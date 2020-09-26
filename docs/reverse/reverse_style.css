@@ -1,0 +1,69 @@
+body{
+    background-image: url('../images/background.jpg');
+    text-align: center;
+    font-family: Courier, monospace;
+    color:white;
+}
+button:hover {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px red inset, 0 0 0 0 red;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+    border: none;
+  }
+  button {
+    font-weight: bold;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    box-shadow: 0 0 10px 0 #F137A6 inset, 0 0 10px 4px #F137A6;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-family: Courier, monospace;
+    border: none;
+    color: #F137A6;
+  }
+  .link:hover {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px red inset, 0 0 0 0 red;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+    border: none;
+  }
+  .link {
+    font-weight: bold;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    box-shadow: 0 0 10px 0 #F137A6 inset, 0 0 10px 4px #F137A6;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-family: Courier, monospace;
+    border: none;
+    color: #F137A6;
+  }
+
+  input{
+      padding: 10px;
+      font-family: Courier, monospace;
+  }
